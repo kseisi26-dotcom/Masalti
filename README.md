@@ -1,57 +1,72 @@
-# MASALTI — Bir varmış. Bir de sen.
-MASALTI, İstanbul Medipol Üniversitesi Görsel İletişim Tasarımı bölümü, Programlamaya Giriş dersi için hazırlanmış bir web projesidir.
+# MASALTI
 
-Proje, geleneksel Türk masallarını görsel ağırlıklı ve etkileşimli bir okuma deneyimiyle sunmayı amaçlamaktadır.
+Bir varmış, bir de sen.
 
-Proje Hakkında
+MASALTI, on Türk masalını 10 kapak ve 40 resimli sahneyle sunan, Programlamaya Giriş dersi kapsamında hazırlanmış bir web projesidir.
 
-Web sitesinde 10 Türk masalı ve toplam 40 resimli hikâye sahnesi bulunmaktadır.
+## Öğrenci bilgileri
 
-Özellikler
+- Ekrem Gökgez
+- Öğrenci numarası 86230045
+- İstanbul Medipol Üniversitesi, Görsel İletişim Tasarımı
+- Ders Programlamaya Giriş
 
-Masal arama ve filtreleme
+## Özellikler
 
-Masalları kaydetme ve okundu olarak işaretleme
+- 10 masalın resimli olarak okunması
+- Masal arama, kaydedilenler ve okunmayanlar filtreleri
+- Ayraç koyma ve okundu olarak işaretleme
+- Yazı boyutu ayarı ve gece modu
+- Çizimleri tam ekranda görüntüleme
+- Ana sayfada önceki ve sonraki masala geçiş
+- Farklı ekran boyutlarına uyumlu tasarım
+- Okuma tercihlerinin tarayıcıda saklanması
+- JavaScript kapalıyken bağlantılar üzerinden masalları okuma
 
-Rastgele masal seçimi
+## Kullanılan teknolojiler
 
-Yazı boyutunu değiştirme ve gece modu
+HTML5, CSS3 ve JavaScript kullanılmıştır. Hazır web teması veya JavaScript çatısı kullanılmamıştır.
 
-Mobil uyumlu arayüz
+## Dosya yapısı
 
-localStorage ile okuma bilgilerinin saklanması
+```text
+MASALTI/
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
 
-Kullanılan Teknolojiler
+- `index.html` sayfa yapısını, masal metinlerini ve gömülü görselleri içerir.
+- `style.css` tasarımı, masal renklerini ve responsive düzenleri içerir.
+- `script.js` arama, filtreleme, ayraçlar ve diğer etkileşimleri yönetir.
+- `README.md` projeyi ve çalıştırma adımlarını açıklar.
 
-HTML5
+## Çalıştırma
 
-İçsel CSS3
+1. Projeyi indirin ve ZIP dosyasını bir klasöre çıkarın.
+2. Üç kod dosyasını aynı klasörde tutun.
+3. `index.html` dosyasını güncel bir tarayıcıyla açın.
 
-JavaScript
+Kurulum veya derleme gerekmez. Görseller HTML içine gömülü olduğundan ayrı bir görsel klasörü gerekmez. Dosyalar indirildikten sonra masal okumak internet gerektirmez. Kaynak bağlantıları internet gerektirir. Okuma kayıtları kullanılan tarayıcıda tutulur. Tarayıcı depolamayı engelliyorsa kayıtlar kalıcı olmayabilir.
 
-CSS Grid ve Flexbox
+## Harici CSS ve JavaScript düzenlemesi
 
-Media Queries
+Vize projesindeki `<style>` bloğu `style.css` dosyasına, `<script>` bloğu `script.js` dosyasına taşınmıştır. HTML üzerindeki sabit `style` değerleri de CSS dosyasına alınmıştır. HTML bu dosyaları göreli yollarla yükler. JavaScript bağlantısı sayfa içeriğinden sonra, kapanış `body` etiketinin önündedir.
 
-localStorage
+## İçerik ve üretim desteği
 
-Proje tek HTML dosyası içerisinde hazırlanmıştır. Görseller ve kullanılan yazı tipleri de dosyanın içinde bulunmaktadır.
+Masal metinleri kısa yeniden anlatımlardır. Metinler, tasarım, kod ve çizimler ChatGPT desteğiyle hazırlanmıştır. Masalların kaynak notları site içerisinde her masalın sonunda ve kaynaklar bölümünde yer alır.
 
-Bağlantılar
+## Kaynaklar
 
-Web Sitesi: https://kseisi26-dotcom.github.io/Masalti/index.html.html
-
-YouTube Sunumu: Video bağlantısı eklenecek.
-
-Yapay Zekâ Kullanımı
-
-Projenin kodlama, görsel üretimi, masal uyarlamaları ve geliştirme süreçlerinde yapay zekâ araçlarından destek alınmıştır. Tasarım kararları, revizyonlar ve testler proje sürecinde değerlendirilmiştir.
-
-Hazırlayan
-
-Ekrem Gökgez
-86230045
-
-İstanbul Medipol Üniversitesi
-Görsel İletişim Tasarımı
-Programlamaya Giriş — Meral Şentürk
+- https://www.okuryazar.com.tr/dergi/ali-cengiz-oyunu
+- https://www.okuryazar.com.tr/dergi/balikcinin-oglu
+- https://www.okuryazar.com.tr/dergi/degirmenci-ile-tilki
+- https://www.kulturportali.gov.tr/portal/dortogut-1
+- https://www.kulturportali.gov.tr/portal/kabakgelin
+- https://www.kulturportali.gov.tr/portal/keloglanileyilankopekkedivebalik
+- https://www.kulturportali.gov.tr/portal/keloglanvealtinbulbulmasali
+- https://www.kulturportali.gov.tr/portal/korkakadamvedevler
+- https://www.masaldergisi.com/sayilar/2025/sayi-28/tuz-kadar-sevgi/
+- https://www.okuryazar.com.tr/dergi/uc-turunclar
